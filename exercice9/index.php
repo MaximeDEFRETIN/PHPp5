@@ -1,17 +1,20 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Exercice 9</title>
     </head>
     <body>
         <?php
-        $coordonnees[02] = 'aisne';
-        $coordonnees[60] = 'oise';
-        $coordonnees[80] = 'somme';
-        $coordonnees[59] = 'nord';
-        $coordonnees[62] = 'pas-de-calais';
-
-        foreach ($coordonnees as $element) {
-            echo $element . ' ';
+        $hautsDeFrance = array(
+            '59' => 'Nord',
+            '62' => 'Pas-de-Calais',
+            '80' => 'Somme',
+            '60' => 'Oise',
+            '02' => 'Aisne'
+        );
+        foreach ($hautsDeFrance as $value)
+        {
+            echo $value . ' ';
         }
         ?>
     </body>

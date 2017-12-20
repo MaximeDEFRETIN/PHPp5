@@ -1,15 +1,17 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Exercice 5</title>
     </head>
     <body>
         <?php
-        $coordonnees[] = 'Hauts de France';
-        $coordonnees[02] = 'aisne';
-        $coordonnees[60] = 'oise';
-        $coordonnees[80] = 'somme';
-        $coordonnees[59] = 'nord';
-        $coordonnees[62] = 'pas-de-calais';
+        $hautDeFrance = array (
+        '02' => 'aisne',
+        '60' => 'oise',
+        '80' => 'somme',
+        '59' => 'nord',
+        '62' => 'pas-de-calais',
+        );
         ?>
     </body>
 </html>
